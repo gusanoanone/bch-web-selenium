@@ -1,0 +1,392 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1788416118,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Estoy en la pagina \"http://www.google.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.google.com",
+                  "offset": 20
+                }
+              ],
+              "location": "buscarEnGoogle.estoy_en_la_pagina_something(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2674215199,
+              "status": "passed"
+            },
+            "match": {
+              "location": "buscarEnGoogle.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Buscar en google tsoft",
+        "description": "",
+        "id": "buscar-en-google;buscar-en-google-tsoft",
+        "after": [
+          {
+            "result": {
+              "duration": 131906085,
+              "status": "passed"
+            },
+            "match": {
+              "location": "buscarEnGoogle.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3617487451,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "busco \"tsoft\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tsoft",
+                  "offset": 7
+                }
+              ],
+              "location": "buscarEnGoogle.busco_something(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2013942402,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "aparece \"tsoft\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tsoft",
+                  "offset": 9
+                }
+              ],
+              "location": "buscarEnGoogle.aparece_something(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 594015756,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Estoy en la pagina \"http://www.google.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.google.com",
+                  "offset": 20
+                }
+              ],
+              "location": "buscarEnGoogle.estoy_en_la_pagina_something(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1102554454,
+              "status": "passed"
+            },
+            "match": {
+              "location": "buscarEnGoogle.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Buscar en google tsoft",
+        "description": "",
+        "id": "buscar-en-google;buscar-en-google-tsoft",
+        "after": [
+          {
+            "result": {
+              "duration": 97081839,
+              "status": "passed"
+            },
+            "match": {
+              "location": "buscarEnGoogle.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3503964988,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "busco \"banco de chile\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "banco de chile",
+                  "offset": 7
+                }
+              ],
+              "location": "buscarEnGoogle.busco_something(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2017734751,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "aparece \"banco de chile\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "banco de chile",
+                  "offset": 9
+                }
+              ],
+              "location": "buscarEnGoogle.aparece_something(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1087064239,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Estoy en la pagina \"http://www.google.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.google.com",
+                  "offset": 20
+                }
+              ],
+              "location": "buscarEnGoogle.estoy_en_la_pagina_something(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1076050640,
+              "status": "passed"
+            },
+            "match": {
+              "location": "buscarEnGoogle.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Buscar en google tsoft",
+        "description": "",
+        "id": "buscar-en-google;buscar-en-google-tsoft",
+        "after": [
+          {
+            "result": {
+              "duration": 95739096,
+              "status": "passed"
+            },
+            "match": {
+              "location": "buscarEnGoogle.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3388101754,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "busco \"cafe\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "cafe",
+                  "offset": 7
+                }
+              ],
+              "location": "buscarEnGoogle.busco_something(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2014097373,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "aparece \"cafe\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "cafe",
+                  "offset": 9
+                }
+              ],
+              "location": "buscarEnGoogle.aparece_something(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 821643530,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Estoy en la pagina \"http://www.google.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.google.com",
+                  "offset": 20
+                }
+              ],
+              "location": "buscarEnGoogle.estoy_en_la_pagina_something(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1143948836,
+              "status": "passed"
+            },
+            "match": {
+              "location": "buscarEnGoogle.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Buscar en google tsoft",
+        "description": "",
+        "id": "buscar-en-google;buscar-en-google-tsoft",
+        "after": [
+          {
+            "result": {
+              "duration": 105185232,
+              "status": "passed"
+            },
+            "match": {
+              "location": "buscarEnGoogle.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3258151154,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "busco \"tequila\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tequila",
+                  "offset": 7
+                }
+              ],
+              "location": "buscarEnGoogle.busco_something(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2016778171,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "aparece \"tequila\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tequila",
+                  "offset": 9
+                }
+              ],
+              "location": "buscarEnGoogle.aparece_something(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Buscar en google",
+    "description": "",
+    "id": "buscar-en-google",
+    "keyword": "Feature",
+    "uri": "buscarEnGoogle.feature"
+  }
+]

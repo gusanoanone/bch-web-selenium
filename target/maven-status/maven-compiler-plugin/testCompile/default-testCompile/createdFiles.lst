@@ -1,0 +1,4 @@
+qa/automated/web/bci/AppTest.class
+qa/automated/web/bci/Definitions/LoginStep.class
+qa/automated/web/bci/Runnings/RunningLoginWeb.class
+qa/automated/web/bci/Runnings/Running.class

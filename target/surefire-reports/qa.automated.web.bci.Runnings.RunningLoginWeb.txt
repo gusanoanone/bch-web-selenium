@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: qa.automated.web.bci.Runnings.RunningLoginWeb
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.006 sec

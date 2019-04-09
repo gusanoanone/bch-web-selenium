@@ -1,0 +1,21 @@
+# Este compose levanta un grid con los nodos de navegador definidos ,mas abajo
+# Ademas permite conectarse por vnc a los nodos, se deben mapear los puertos
+# cada nodo de navegador terminado en "-debug" permite conectarse por vnc y 
+# expone el puerto 5900
+
+selenium-hub:
+ image: selenium/hub
+ ports:
+  - 4444:4444
+# firefox-node:
+#  image: selenium/node-firefox-debug
+#  ports:
+#   - 35002:5900
+#  links:
+#   - selenium-hub:hub
+chrome-node:
+ image: selenium/node-chrome-debug
+ ports:
+  - 35001:5900
+ links:
+  - selenium-hub:hub
